@@ -13,11 +13,10 @@ After submission, the items will be remove from the current cart and the site ad
 
 This project was originally started with the distribution code from https://cdn.cs50.net/web/2020/x/projects/3/project3.zip
 
-![PizzaRestaurant Demo](demo/demo.gif)
 
 ## Achievements
 
-* Menu: The web application support all of the available menu items for [Pinnochio’s Pizza & Subs](http://www.pinocchiospizza.net/menu.html). Based on analyzing the menu and the various types of possible ordered items (small vs. large, toppings, additions, etc.), I created 8 models:
+* Menu: The web application support all of the available menu items). Based on analyzing the menu and the various types of possible ordered items (small vs. large, toppings, additions, etc.), I created 8 models:
     * Category : To differentiate items and allow the customization of topping, size and extra.
     * Size : Small and Large
     * Topping + Extra : To see the list of items
@@ -53,7 +52,3 @@ Copy paste the URL link to your web browser
 ## How to run the admin interface
 
 While the application is running on your local computer, go tho this url: http://127.0.0.1:8000/admin/
-
-To create a superuser, follow this tutorial: https://docs.djangoproject.com/en/1.8/intro/tutorial02/
-
-To get more information about this web app, check out this video https://www.youtube.com/watch?v=nhwRe9PW50k&t=48s
